@@ -1,9 +1,4 @@
-// index.js
-// Punto de entrada. Ejecuta el flujo completo del Taller 1:
-// 1) trae todos los personajes (estrategia concurrente, la definitiva)
-// 2) normaliza (Parte A)
-// 3) corre todas las consultas (Parte B)
-// 4) compara estrategias secuencial vs concurrente (Parte C)
+
 
 import { obtenerTodosConcurrente } from "./api.js";
 import { normalizarPersonajes } from "./normalizacion.js";
