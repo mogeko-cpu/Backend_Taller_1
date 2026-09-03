@@ -1,5 +1,3 @@
-
-
 import { obtenerTodosSecuencial, obtenerTodosConcurrente } from "./api.js";
 
 async function compararEstrategias() {
