@@ -1,6 +1,4 @@
-// estadisticas.js
-// Rama sugerida: feature/estadisticas
-// Parte C del taller: ejecuta ambas estrategias y reporta el tiempo de cada una.
+
 
 import { obtenerTodosSecuencial, obtenerTodosConcurrente } from "./api.js";
 
