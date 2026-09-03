@@ -1,5 +1,3 @@
-
-
 function vivosHumanos(personajes) {
   return personajes.filter(
     (p) => p.estado === "Alive" && p.especie === "Human"
