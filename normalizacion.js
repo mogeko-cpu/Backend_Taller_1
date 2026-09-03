@@ -1,11 +1,7 @@
-// normalizacion.js
-// Rama sugerida: feature/normalizacion
-// Parte A del taller: transformar la respuesta cruda de la API en la
-// estructura simplificada que pide el enunciado, usando map.
 
 /**
- * @param {Array} personajesCrudos - arreglo "results" tal cual lo entrega la API
- * @returns {Array} arreglo normalizado
+ * @param {Array} personajesCrudos 
+ * @returns {Array} 
  */
 function normalizarPersonajes(personajesCrudos) {
   return personajesCrudos.map((p) => ({

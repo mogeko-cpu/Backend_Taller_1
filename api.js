@@ -17,7 +17,6 @@ async function fetchJson(url, intentosRestantes = 5, intentoNumero = 0) {
   const respuesta = await fetch(url, FETCH_OPTIONS);
 
   if (respuesta.status === 429 && intentosRestantes > 0) {
-    // Backoff exponencial: 3s, 6s, 12s, 24s, 48s, 96s.
     const esperaMs = 3000 * 2 ** intentoNumero;
     await new Promise((resolve) => setTimeout(resolve, esperaMs));
     return fetchJson(url, intentosRestantes - 1, intentoNumero + 1);
@@ -37,7 +36,7 @@ async function fetchJson(url, intentosRestantes = 5, intentoNumero = 0) {
 
 async function obtenerInfoPaginacion() {
   const datos = await fetchJson(BASE_URL);
-  return datos.info; // { count, pages, next, prev }
+  return datos.info; 
 }
 
 async function obtenerTodosSecuencial() {
