@@ -1,5 +1,3 @@
-
-
 import { obtenerTodosConcurrente } from "./api.js";
 import { normalizarPersonajes } from "./normalizacion.js";
 import {
