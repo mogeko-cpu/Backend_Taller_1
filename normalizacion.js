@@ -1,4 +1,3 @@
-
 /**
  * @param {Array} personajesCrudos 
  * @returns {Array} 
