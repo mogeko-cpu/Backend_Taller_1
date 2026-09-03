@@ -1,0 +1,10 @@
+{
+  "name": "taller1-rickandmorty",
+  "version": "1.0.0",
+  "description": "Taller 1 - JavaScript: Promesas, APIs y Manipulación de Datos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
